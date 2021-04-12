@@ -1,0 +1,219 @@
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        height: 100vh;
+    }
+    #wrapper{
+        height: 100%;
+    }
+    /* Top Navigation */
+
+    #wrapper .top-nav-links{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #wrapper .first-nav-links {
+        display: flex;
+    }
+
+    #wrapper a.click-able{
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        line-height: 24px;
+        margin-top: 1.1em;
+        font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    }
+
+    #wrapper a.click-able-last{
+        margin-right: 2em;
+        margin-left: 1.3em;
+    }
+
+    #wrapper .google_dots{
+        margin-right: 1.45em;
+        margin-top: 1.2em;
+    }
+
+    #wrapper .google_dots img{
+        width: 19px;
+    }
+
+    #wrapper .signIn-btn {
+        display: inline-block;
+        padding: 8px 26px;
+        background-color: #1a73e8; 
+        border-radius: 4px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        margin-right: 1.5em;
+        font-size: 14px;
+        margin-top: .95em;
+        border: 1px solid transparent;
+        font-weight: 500;
+    }
+    /*Middle Area*/
+
+    main{
+        text-align: center;
+        margin-bottom: 130px;
+    }
+    
+    /* styling the h1 coloured google */
+    
+    h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 80px;
+        margin: 50px 0 ;
+    }
+    
+    /* styling the diff colours */
+    .blue{
+        color: rgb(43, 121, 211);
+    }
+    .red{
+        color: rgb(236, 67, 67);
+    }
+    .orange{
+        color: rgb(248, 214, 21);
+    }
+    .green{
+        color: rgb(4, 179, 4);
+    }
+    
+    /* styling the input element */
+    .input-wrapper{
+        position: relative;
+    }
+
+    input{
+        width: 45%;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        border: 1px solid gainsboro;
+        height: 34px;
+    }
+
+    input:hover{
+        box-shadow: 0 0 5px  gray;
+    }
+    /* styling the fontawesome*/
+    .mic{
+        color: rgb(93, 93, 253);
+        position: absolute;
+        right: 30%;
+        top: 15%;
+        cursor: pointer;
+    }
+
+    .search{
+        color: #9aa0a6;
+        position: absolute;
+        left: 29%;
+        top: 15%;
+        cursor: pointer;
+    }
+    
+    /* styling the first section class */
+    #wrapper .btn-grp{
+        margin: 16px 0 60px 0;
+    }
+    .first-section{
+        margin-right: 20px;
+        border: none;
+        background-color: #f8f9fa;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 12px 24px;
+    }
+    
+    /* styling  the section list elements */
+    
+    li{
+        display: inline;
+    }
+
+    .unordered a{
+        text-decoration: none;
+        margin-right: 1em;
+    }
+
+    .unordered li:first-of-type{
+        margin-right: .8em;
+    }
+
+    /* styling footer */
+    footer{
+        background-color:rgb(238, 236, 236);
+        padding: 14px;
+    }
+
+    footer .nigeria{
+        border-bottom: 1px solid gainsboro;
+        padding: 15px 30px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #70757a;
+    }
+    
+    footer .mini-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    
+    .first-mini-footer{
+        display: flex;
+        justify-content: space-between;
+        min-width: 30%;
+        padding: 11px;
+    }
+
+    .carbon {
+        padding: 10px 0;
+    }
+
+    .carbon a span{
+        vertical-align: middle;
+        margin-left: .5em;
+    }
+    
+    .carbon a img{
+        height: 14px;
+    }
+
+    .second-mini-footer{
+        display: flex;
+        min-width: 30%;
+        padding: 11px;
+        justify-content: flex-end;
+    }
+
+    .second-mini-footer .privacy{
+        margin-right: 2em;
+    }
+
+    .second-mini-footer .terms{
+        margin-right: 2em;
+    }
+
+    .second-mini-footer .set-up{
+    }
